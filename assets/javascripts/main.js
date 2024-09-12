@@ -308,6 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
+      document.querySelector('.content').classList.remove('d-none')
     });
   }
 
