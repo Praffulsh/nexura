@@ -304,11 +304,10 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Preloader
    */
-  const preloader = document.querySelector('.preloader');
+  const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
-      document.querySelector('.content').classList.remove('d-none')
     });
   }
 
