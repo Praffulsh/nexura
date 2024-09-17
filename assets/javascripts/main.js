@@ -1,15 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
-  /*  
-    Template name    : Technoit - IT Solutions & Business Services Multipurpose Responsive Website Template
-    Author           : ZRTHEMES
-    Version          : 1.0
-    File Description : Main JS file of the template
-  */
-
-  
-
   /**
    * Initiate Pure Counter
    */
