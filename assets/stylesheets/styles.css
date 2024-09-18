@@ -335,13 +335,12 @@ img:hover {
   align-items: center;
   justify-content: center;
   background-color: var(--light-color);
-  z-index: 99999;
 }
 
 .preloader {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   perspective: 780px;
 }
@@ -3724,7 +3723,7 @@ canvas {
 /* Scroll top end */
 
 .service-widget li:hover a {
-  color: var(--theme-color);
+  color: var(--color-primary);
   /* font-weight: 500; */
   padding-left: 5px;
   transition: all 0.3s ease 0s;
@@ -3756,3 +3755,15 @@ canvas {
 /*scrollbar-color: #888 #f1f1f1;  Color of the scrollbar thumb and track */
 
 /* Scroll bar end */
+/* 
+.list-wrap .icon i{
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  background: linear-gradient(to right, #85edfe, #6ee0ff, #60d2ff, #5fc2ff, #6bb1ff);
+  line-height: 70px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+} */
