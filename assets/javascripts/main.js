@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Preloader
    */
-  const preloader = document.querySelector('#preloader');
+  const preloader = document.querySelector('.preloader-wrap');
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();

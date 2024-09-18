@@ -334,6 +334,8 @@ img:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--light-color);
+  z-index: 99999;
 }
 
 .preloader {
