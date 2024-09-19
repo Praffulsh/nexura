@@ -3755,15 +3755,24 @@ canvas {
 /*scrollbar-color: #888 #f1f1f1;  Color of the scrollbar thumb and track */
 
 /* Scroll bar end */
-/* 
-.list-wrap .icon i{
+
+.list-wrap .icon i ,.icon-box .icon i {
   display: inline-block;
   height: 70px;
   width: 70px;
   background: linear-gradient(to right, #85edfe, #6ee0ff, #60d2ff, #5fc2ff, #6bb1ff);
+  /* background: linear-gradient(to right, #0764DE, #0852b1, #063573, #5fc2ff, #073972); */
   line-height: 70px;
   border-radius: 50px;
-  color: #ffffff;
+  color: var(--light-color);
   font-size: 30px;
   text-align: center;
-} */
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  transition: 0.3s;
+}
